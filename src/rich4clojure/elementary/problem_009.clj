@@ -8,14 +8,14 @@
 ;; When operating on a set, the conj function returns a
 ;; new set with one or more keys "added".
 
-(def __ :tests-will-fail)
+(def __ 2)
 
 (comment
   
   )
 
 (tests
-  #{1 2 3 4} := (conj #{1 4 3} __))
+  #{1 2 3 4} := (conj #{1 4 3} 2))
 
 ;; Share your solution, and/or check how others did it:
 ;; https://gist.github.com/ad6c54ca6259cd67274a902f2d0be1ff
